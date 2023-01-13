@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -97,10 +97,7 @@ namespace LinkedListAssignment
                 }
                 Console.WriteLine("\nThe linkedlist is modified");
             }
-
         }
-
-
         public void Display()
         {
             Node temp = head; //temp variable is created.
@@ -110,11 +107,8 @@ namespace LinkedListAssignment
                 Console.WriteLine("Linked list is empty");
             }
             Console.WriteLine();
-            //Console.WriteLine("Display Method is Executed");
-
             while (temp != null)
             {
-
                 Console.Write(temp.data+" ");
 
                 temp = temp.next;
