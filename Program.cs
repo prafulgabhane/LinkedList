@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +11,14 @@ namespace LinkedListAssignment
         {
             LinkedList linkedList = new LinkedList();
             linkedList.Add(56);
+            linkedList.Add(30);
             linkedList.Add(70);
             linkedList.Display();
 
-            linkedList.InsertAtPerticularPosition(2, 30);
+            linkedList.popEnd();
             linkedList.Display();
+            Console.ReadLine();
+
         }
     }
 }

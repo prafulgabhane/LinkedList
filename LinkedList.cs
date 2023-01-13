@@ -75,6 +75,29 @@ namespace LinkedListAssignment
             Console.WriteLine("\nFirst Element has been Deleted");
 
         }
+
+        public void popEnd()
+        {
+
+            if (head == null)
+            {
+                Console.Write("linkedlist is empty");
+                return;
+            }
+            else
+            {
+                Node temp = head;
+                while (temp.next.next != null)
+                {
+                    temp = temp.next;
+                }
+                if (temp.next.next == null)
+                {
+                    temp.next = null;
+                }
+                Console.WriteLine("\nThe linkedlist is modified");
+            }
+        }
         public void Display()
         {
             Node temp = head; //temp variable is created.
@@ -84,10 +107,8 @@ namespace LinkedListAssignment
                 Console.WriteLine("Linked list is empty");
             }
             Console.WriteLine();
-
             while (temp != null)
             {
-
                 Console.Write(temp.data+" ");
 
                 temp = temp.next;
