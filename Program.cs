@@ -14,11 +14,10 @@ namespace LinkedListAssignment
             linkedList.Add(30);
             linkedList.Add(70);
             linkedList.Display();
-
-            linkedList.popEnd();
+            Console.WriteLine();
+            linkedList.MsTest(30);
             linkedList.Display();
             Console.ReadLine();
-
         }
     }
 }
