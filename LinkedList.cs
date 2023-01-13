@@ -98,6 +98,18 @@ namespace LinkedListAssignment
             }
         }
 
+        public void size()
+        {
+            Node temp = head;
+            int count = 0;
+            while (temp != null)
+            {
+                count++;
+                temp = temp.next;
+            }
+            Console.WriteLine("\nsize= " + count);
+        }
+
         public void MsTest(int x)
         {
             Node temp = head;
@@ -114,7 +126,8 @@ namespace LinkedListAssignment
                     Console.WriteLine(temp.data + "!=" + x);
                 }
                 temp = temp.next;
-            }
+           }
+  }
         public void Display()
         {
             Node temp = head; //temp variable is created.
@@ -124,6 +137,9 @@ namespace LinkedListAssignment
                 Console.WriteLine("Linked list is empty");
             }
             Console.WriteLine();
+            while (temp != null)
+            {
+
 
                 Console.Write(temp.data+" ");
 
@@ -137,3 +153,5 @@ namespace LinkedListAssignment
 
         }
     }
+}
+
