@@ -1,10 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-
 namespace LinkedListAssignment
 {
     class Program
@@ -17,10 +15,6 @@ namespace LinkedListAssignment
             linkedList.Add(70);
             linkedList.Display();
             Console.WriteLine();
-            // linkedList.InsertAtPerticularPosition(2, 30);
-            //linkedList.Display();
-            //linkedList.popEnd();
-            //linkedList.Display();
             linkedList.MsTest(30);
             linkedList.Display();
             Console.ReadLine();
