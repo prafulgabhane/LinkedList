@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,8 +75,6 @@ namespace LinkedListAssignment
             Console.WriteLine("\nFirst Element has been Deleted");
 
         }
-
-
         public void Display()
         {
             Node temp = head; //temp variable is created.
@@ -86,7 +84,6 @@ namespace LinkedListAssignment
                 Console.WriteLine("Linked list is empty");
             }
             Console.WriteLine();
-            //Console.WriteLine("Display Method is Executed");
 
             while (temp != null)
             {
