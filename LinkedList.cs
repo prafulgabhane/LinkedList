@@ -115,8 +115,6 @@ namespace LinkedListAssignment
                 }
                 temp = temp.next;
             }
-          } 
-       }
         public void Display()
         {
             Node temp = head; //temp variable is created.
@@ -127,8 +125,6 @@ namespace LinkedListAssignment
             }
             Console.WriteLine();
 
-            while (temp != null)
-            {
                 Console.Write(temp.data+" ");
 
                 temp = temp.next;
@@ -141,4 +137,3 @@ namespace LinkedListAssignment
 
         }
     }
-
