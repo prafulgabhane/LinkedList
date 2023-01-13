@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace LinkedListAssignment
 {
     class Program
@@ -20,8 +19,7 @@ namespace LinkedListAssignment
             linkedList.InsertAtPerticularPosition(2, 40);
             linkedList.Display();
             Console.WriteLine();
-            //linkedList.popEnd();
-            //linkedList.Display();
+
             linkedList.MsTest(30);
             linkedList.Display();
             Console.ReadLine();
